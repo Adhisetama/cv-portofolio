@@ -120,10 +120,25 @@ li a {
     padding: 20px 20px 0 20px;
 }
 
+.intro-title {
+    font: italic normal lighter 2em/normal Arial, Helvetica, sans-serif;
+    color: rgb(129, 129, 129);
+}
+
+.intro-name {
+    font: normal normal bold 3em/normal Arial, Helvetica, sans-serif;
+    color: rgb(44, 44, 44);
+}
+
 .right-site-content {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 3%;
+}
+
+.right-site h2 {
+    color: rgb(129,129,129);
+    font: normal bold normal 1.7em/normal Lato, Halvetica, sans-serif;
 }
 
 .left-site {
@@ -133,25 +148,28 @@ li a {
 
 .left-site-content {
     margin: 0;
-    padding: 5% 5%;
+    padding: 0 5%;
 }
 
-h2.subtitle-left {
-    color: rgb(238, 238, 238);
-    font-family: Arial, Halvetica, sans-serif;
+.left-site p {
+    color: rgb(255, 255, 255);
+    font: normal normal normal 1em/normal sans-serif;
+}
+
+/* .cv {
+    color: rgb(rgb(0, 0, 0), green, blue);
+} selector ketutupan sama .left-site p*/
+
+.left-site h2 {
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-weight: lighter;
-}
-
-h2 {
-    color: rgb(120,120,120);
-    font-family: Halvetica, sans-serif;
-    font-weight: bolder;
+    font: normal normal normal 1.8em/normal Arial, Halvetica, sans-serif;
 }
 
 p {
     color: rgb(40,40,40);
-    font: lighter normal normal 1em/normal Lato, sans-serif;
+    font: lighter normal normal 1.2em/normal Lato, sans-serif;
+    text-align: justify;
 }
 
 .azka-img {
