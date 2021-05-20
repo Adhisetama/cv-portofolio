@@ -4,23 +4,25 @@ body {
     background-image: url("resources/background-1.png");
 }
 
-header {
-    background-color: darkgreen;
+/* div.header {
+    background-color: rgb(11, 58, 25);
 }
 
 .head-container {
     display: flex;
+    flex-shrink: ;
+    height: 25vh;
 }
 
 .header {
     font: normal lighter small-caps 1em/normal Arial, sans-serif;
-    padding: 30px 2% 30px 2%;
+    padding: 3%px 2% 3% 2%;
     color: white;
     margin: 0;
 }
 
 li {
-    background-color: aquamarine;
+    background-color: #a5e6ca;
     list-style-type: none;
     display: flex;
     float: left;
@@ -36,11 +38,59 @@ li a {
     font: normal normal bolder 1em/normal sans-serif;
     color: darkslategray;
     text-transform: uppercase;
+} 
+
+        nyoba nge rework buat baru
+ */
+
+.head-container {
+    margin: 0;
+    padding: 4% 3% 4% 3%;
+    background-color: rgb(11, 58, 25);
 }
 
-.body-container {
-    margin: 3% 20px;
+.head {
+    margin: 0;
+    padding: 0;
     display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: ;
+}
+
+li {
+
+}
+
+/* nyoba buat logo di kanan navbar tp gagal
+.logo {
+    height: 50px;
+    float: right;
+} */
+
+.body-container {
+    margin: 0 3% 0 3%;
+    padding: 0;
+    width: 94%;
+    display: flex;
+    background-color: rgb(240, 240, 240);
+}
+
+.right-site {
+    width: 67%;
+    padding: 20px 20px 0 20px;
+}
+
+.left-site {
+    width: 33%;
+    background-color: #2a6e3c;
 }
 
 h2 {
