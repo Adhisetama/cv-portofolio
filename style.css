@@ -42,9 +42,9 @@ li a {
     text-transform: uppercase;
 } 
 
-        nyoba nge rework buat baru
+        remake buat baru
 
-        update: rework done :) ...delete aja ini
+        update: remake done :) ...delete aja ini
  */
 
 .head-container {
@@ -178,4 +178,46 @@ p {
 .azka-img {
     float: left;
     display: flex;
+}
+
+.socmed-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socmed-block {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.socmed {
+    font: normal normal 700 1em/normal Verdana, Halvetica, sans-serif;
+    color: rgb(40,40,40);
+    text-decoration: none;
+}
+
+.socmed:hover {
+    color: rgb(129,129,129);
+}
+
+.img-socmed {
+    margin-top: 10px;
+}
+
+#img-git:hover { height: 40px; margin: 0;}
+#img-twit:hover { height: 40px; margin: 0;} 
+#img-ig:hover { height: 40px; margin: 0;}
+
+footer {margin: 0; padding: 0;}
+
+.footer p {
+    font: normal normal lighter 1em/normal sans-serif;
+    color: rgb(167, 167, 167);
+    text-align: center;
+    margin: 0;
+    padding: 1% 0;
 }
