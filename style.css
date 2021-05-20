@@ -6,47 +6,6 @@ body {
     width: 100%;
 }
 
-/* div.header {
-    background-color: rgb(11, 58, 25);
-}
-
-.head-container {
-    display: flex;
-    flex-shrink: ;
-    height: 25vh;
-}
-
-.header {
-    font: normal lighter small-caps 1em/normal Arial, sans-serif;
-    padding: 3%px 2% 3% 2%;
-    color: white;
-    margin: 0;
-}
-
-li {
-    background-color: #a5e6ca;
-    list-style-type: none;
-    display: flex;
-    float: left;
-    margin-top: 30px;
-    -ms-flex-align: center;
-    margin-left: 3px;
-    margin-right: 3px;
-    padding: 20px 25px;
-}
-
-li a {
-    text-decoration: none;
-    font: normal normal bolder 1em/normal sans-serif;
-    color: darkslategray;
-    text-transform: uppercase;
-} 
-
-        remake buat baru
-
-        update: remake done :) ...delete aja ini
- */
-
 .head-container {
     margin: 0;
     padding: 1% 2% 1% 4%;
@@ -55,7 +14,6 @@ li a {
     align-items: center;
     width: 100%;
     overflow: hidden;
-    /* position: fixed; */
 }
 
 .header-nav {
@@ -78,7 +36,6 @@ li a {
     float: left;
     margin: 0 2%;
     padding: 10px 10px;
-    /* width: 20%; */
 }
 
 .head li:hover {background-color: white;}
@@ -101,7 +58,6 @@ li a {
     margin-right: 5%;
 }
 
-/* nyoba buat logo di kanan navbar tp gagal */
 .logo {
     height: 50px;
     float: left;
