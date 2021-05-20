@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("resources/background-1.png");
+}
+
+header {
+    background-color: darkgreen;
+}
+
+.head-container {
+    display: flex;
+}
+
+.header {
+    font: normal lighter small-caps 1em/normal Arial, sans-serif;
+    padding: 30px 2% 30px 2%;
+    color: white;
+    margin: 0;
+}
+
+li {
+    background-color: aquamarine;
+    list-style-type: none;
+    display: flex;
+    float: left;
+    margin-top: 30px;
+    -ms-flex-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 20px 25px;
+}
+
+li a {
+    text-decoration: none;
+    font: normal normal bolder 1em/normal sans-serif;
+    color: darkslategray;
+    text-transform: uppercase;
+}
+
+.body-container {
+    margin: 3% 20px;
+    display: flex;
+}
+
+h2 {
+    color: rgb(120,120,120);
+    font-family: Verdana, sans-serif;
+}
+
+p {
+    color: rgb(40,40,40);
+    font: lighter normal normal 1em/normal cursive, sans-serif;
+}
+
+.azka-img {
+    float: left;
+    display: flex;
+}
