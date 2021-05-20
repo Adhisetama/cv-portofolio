@@ -151,14 +151,17 @@ li a {
     padding: 0 5%;
 }
 
-.left-site p {
-    color: rgb(255, 255, 255);
-    font: normal normal normal 1em/normal sans-serif;
+.cv-value {
+    color: rgb(219, 219, 219);
+    font: normal normal lighter 1.2em/normal sans-serif;
+    vertical-align: top;
 }
 
-/* .cv {
-    color: rgb(rgb(0, 0, 0), green, blue);
-} selector ketutupan sama .left-site p*/
+.cv {
+    color: rgb(200, 255, 237);
+    font: normal normal normal 1.2em/normal sans-serif;
+    vertical-align: top;
+}
 
 .left-site h2 {
     color: rgb(255, 255, 255);
