@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("resources/background-1.png");
+    height: 100%;
+    width: 100%;
 }
 
 /* div.header {
@@ -41,39 +43,69 @@ li a {
 } 
 
         nyoba nge rework buat baru
+
+        update: rework done :) ...delete aja ini
  */
 
 .head-container {
     margin: 0;
-    padding: 4% 3% 4% 3%;
+    padding: 1% 2% 1% 4%;
     background-color: rgb(11, 58, 25);
-}
-
-.head {
-    margin: 0;
-    padding: 0;
     display: flex;
     align-items: center;
+    width: 100%;
+    overflow: hidden;
+    /* position: fixed; */
 }
 
 .header-nav {
     margin: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    display: flex;
 }
 
-ul {
-    list-style-type: ;
+.head ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-li {
-
+.head li {
+    background-color: #a5e6ca;
+    float: left;
+    margin: 0 2%;
+    padding: 10px 10px;
+    /* width: 20%; */
 }
 
-/* nyoba buat logo di kanan navbar tp gagal
+.head li:hover {background-color: white;}
+
+.head li a {
+    color: darkslategray;
+    font: normal normal bold 0.8em/normal sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-weight: lighter;
+    color: white;
+}
+
+.header {
+    margin-right: 5%;
+}
+
+/* nyoba buat logo di kanan navbar tp gagal */
 .logo {
     height: 50px;
-    float: right;
-} */
+    float: left;
+}
 
 .body-container {
     margin: 0 3% 0 3%;
@@ -84,23 +116,42 @@ li {
 }
 
 .right-site {
-    width: 67%;
+    width: 70%;
     padding: 20px 20px 0 20px;
 }
 
+.right-site-content {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
 .left-site {
-    width: 33%;
+    width: 30%;
     background-color: #2a6e3c;
+}
+
+.left-site-content {
+    margin: 0;
+    padding: 5% 5%;
+}
+
+h2.subtitle-left {
+    color: rgb(238, 238, 238);
+    font-family: Arial, Halvetica, sans-serif;
+    text-align: center;
+    font-weight: lighter;
 }
 
 h2 {
     color: rgb(120,120,120);
-    font-family: Verdana, sans-serif;
+    font-family: Halvetica, sans-serif;
+    font-weight: bolder;
 }
 
 p {
     color: rgb(40,40,40);
-    font: lighter normal normal 1em/normal cursive, sans-serif;
+    font: lighter normal normal 1em/normal Lato, sans-serif;
 }
 
 .azka-img {
